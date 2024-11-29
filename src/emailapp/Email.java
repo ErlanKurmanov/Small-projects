@@ -17,10 +17,7 @@ public class Email {
     public Email(String firstName, String lastName) {
             this.firstName = firstName;
             this.lastName = lastName;
-
             this.department = setDepartment();
-
-
             this.password = randomPassword(defaultLenght);
 
 
