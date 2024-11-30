@@ -40,10 +40,10 @@ public class Student {
         do {
             System.out.println("Enter your enrollment course or quit 'q': ");
             Scanner scanner = new Scanner(System.in);
-            String course = scanner.nextLine();
-            if (!course.equals("q")){
-                courses = courses  + "\n    " + course;
-            tuitionBalance = tuitionBalance + costOfCourse;
+            String getInfoFromUser = scanner.nextLine();
+            if (!getInfoFromUser.equals("q")){
+                courses = courses  + "\n    " + getInfoFromUser;
+                tuitionBalance = tuitionBalance + costOfCourse;
             } else {break;}
 
         } while (1 != 0);
@@ -58,6 +58,7 @@ public class Student {
 
     void payment (){
         showBalance();
+
         System.out.println("Enter your payment: ");
         Scanner scanner = new Scanner(System.in);
         int getData = scanner.nextInt();

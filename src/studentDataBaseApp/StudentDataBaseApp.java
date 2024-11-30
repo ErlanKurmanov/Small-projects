@@ -10,14 +10,20 @@ public class StudentDataBaseApp {
         int numberOfStud = scanner.nextInt();
         Student [] stud = new Student [numberOfStud];
 
+
         //Create n number of students
-        //Need to be fixed here !!!!!!!!!!!
-        for (int i=1; i<=numberOfStud;i++){
+
+                        /* repeat everything below */
+
+        for (int i=0; i<numberOfStud;i++){
             stud[i] = new Student();
             stud[i].enrolmentCourse();
             stud[i].payment();
             System.out.println(stud[i].showInfo());
+
+
         }
+        System.out.println(stud[0].firstName + "\n" + stud[1].showInfo());
 
 
 
