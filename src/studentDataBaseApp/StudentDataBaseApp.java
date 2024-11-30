@@ -21,7 +21,6 @@ public class StudentDataBaseApp {
             stud[i].payment();
             System.out.println(stud[i].showInfo());
 
-
         }
         System.out.println(stud[0].firstName + "\n" + stud[1].showInfo());
 
