@@ -53,12 +53,19 @@ public class EncryptionProgram {
             characters++;
         }
         shouffledList = new ArrayList<>(list);
-        Collections.shuffle(shouffledList);
 
-//        System.out.println("New key has been created");
-//        System.out.print(list);
+
+
+//        Collections.shuffle(shouffledList);
+//        for (Character x: list){
+//            System.out.print(x);
+//        }
 //        System.out.println();
-//        System.out.print(shouffledList);
+//        for (Character i: shouffledList){
+//            System.out.print(i);
+//        }
+//        System.out.println();
+
     }
 
     //Matching sentence with shuffled ASCII characters
