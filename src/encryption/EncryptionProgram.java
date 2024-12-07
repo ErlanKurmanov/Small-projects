@@ -7,10 +7,9 @@ import java.util.Scanner;
 public class EncryptionProgram {
 
     private Scanner scanner;
-    private ArrayList<Character> list;
+    private ArrayList<Character> list; //List of character from ASCII
     private ArrayList<Character> shuffledList;
     private char character;
-    private String line;
     private char[] usersLetter;
 
     EncryptionProgram(){
